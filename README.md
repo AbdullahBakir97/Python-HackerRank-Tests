@@ -85,7 +85,7 @@ def numCells(grid):
         
         # List of neighbor positions (8 directions)
         directions = [(-1, -1), (-1, 0), (-1, 1), 
-                      (0, -1),          (0, 1), 
+                      (0, -1), (0, 1), 
                       (1, -1), (1, 0), (1, 1)]
         
         for dr, dc in directions:
