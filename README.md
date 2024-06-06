@@ -1,11 +1,12 @@
 # Python Certification Test Solutions
 
-![Certification]([https://www.hackerrank.com/certificates/9ae979da8e2c)![HackerRank_certificate_py](https://github.com/AbdullahBakir97/Python-HackerRank-Tests/assets/127149804/2d38f405-343f-4f9a-a5f9-348147e36326)
+![HackerRank_certificate_py](https://github.com/AbdullahBakir97/Python-HackerRank-Tests/assets/127149804/2d38f405-343f-4f9a-a5f9-348147e36326)
 
 
 ## Overview
 
 This repository contains solutions to two coding challenges as part of the Python certification test from HackerRank. These challenges are designed to test proficiency in Python programming through real-world problem-solving scenarios.
+Certificate: [Certificate](https://www.hackerrank.com/certificates/9ae979da8e2c) 
 
 ## Challenges
 
