@@ -1,8 +1,7 @@
 # Python Certification Test Solutions
 
 
-
-This repository contains solutions to two coding challenges as part of the Python certification test from HackerRank. These challenges are designed to test proficiency in Python programming through real-world problem-solving scenarios.
+This repository contains my solutions to two coding challenges from the HackerRank Python certification test. These solutions are intended to showcase my proficiency in Python programming and problem-solving abilities.
 
 Certificate: [Certificate](https://www.hackerrank.com/certificates/9ae979da8e2c) 
 
@@ -144,6 +143,13 @@ grid = [
 ]
 print(numCells2(grid))  # Output: 0
 ```
+
+## Disclaimer
+
+These solutions are my personal implementations for the HackerRank Python Certification challenges. They are intended to demonstrate my problem-solving skills and coding abilities. Please use these solutions for educational purposes and do not copy them directly for submissions. Support the learning community by contributing your own unique solutions.
+
+All content related to the challenges is © HackerRank. For more challenges and to improve your coding skills, visit [HackerRank](https://www.hackerrank.com/).
+
 
 ## License
 
