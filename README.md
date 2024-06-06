@@ -1,6 +1,6 @@
 # Python Certification Test Solutions
 
-![Certification]([[https://www.hackerrank.com/certificates/9ae979da8e2c](https://www.hackerrank.com/certificates/9ae979da8e2c)))
+![Certification](https://www.hackerrank.com/certificates/9ae979da8e2c)
 
 ## Overview
 
