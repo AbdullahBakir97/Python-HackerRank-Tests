@@ -73,7 +73,7 @@ This challenge involves writing a function `numCells(grid)` to count the number 
 - **Returns:**
   - An integer representing the number of dominant cells in the grid.
 - **Description:**
-  - This function calculates the number of dominant cells in the given grid based on the criteria mentioned above.
+  - The function iterates over each cell in the grid and checks if it is a dominant cell by comparing its value with the values of its neighboring cells. Neighboring cells include those that are horizontally, vertically, and diagonally adjacent
 
 #### Example Usage
 
@@ -113,6 +113,37 @@ grid = [
 print(numCells(grid))  # Output: 0
 ```
 
+#### Alternative Implementation
+This alternative implementation of the `numCells` function offers another approach to counting the number of dominant cells in the grid. Instead of explicitly checking the neighboring cells for each cell in the grid, it leverages the `all()` function along with list comprehensions to determine if a cell is dominant based on comparisons with its entire row and column.
+
+**Function: `numCells2(grid)`**
+
+- **Parameters:**
+  - `grid` (List[List[int]]): A 2D list of integers representing the grid.
+- **Returns:**
+  - An integer representing the number of dominant cells in the grid.
+- **Description:**
+  - The function iterates over each cell in the grid and evaluates whether it is dominant by comparing its value with all the values in its row and column. If the cell's value is greater than all the values in its row and column, it is considered dominant, and the count is incremented accordingly.
+
+
+```python
+def numCells2(grid):
+    count = 0
+    for i in range(len(grid)):
+        for j in range(len(grid[0])):
+            if all(grid[i][j] > grid[x][j] for x in range(len(grid))) \
+               and all(grid[i][j] > grid[i][y] for y in range(len(grid[0]))):
+                count += 1
+    return count
+
+# Example usage
+grid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print(numCells2(grid))  # Output: 0
+```
 
 ## License
 
