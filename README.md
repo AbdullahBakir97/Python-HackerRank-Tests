@@ -1,7 +1,7 @@
 # Python Certification Test Solutions
 
 
-This repository contains my solutions to two coding challenges from the HackerRank Python certification test. These solutions are intended to showcase my proficiency in Python programming and problem-solving abilities.
+This repository contains my solutions to coding challenges from the HackerRank Python certification test. These solutions are intended to showcase my proficiency in Python programming and problem-solving abilities.
 
 Certificate: [Certificate](https://www.hackerrank.com/certificates/9ae979da8e2c) 
 
